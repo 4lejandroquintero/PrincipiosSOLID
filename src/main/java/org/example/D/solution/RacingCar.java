@@ -13,4 +13,20 @@ class RacingCar implements Car {
         power++;
         remainingFuel--;
     }
+
+    public int getRemainingFuel() {
+        return remainingFuel;
+    }
+
+    public void setRemainingFuel(int remainingFuel) {
+        this.remainingFuel = remainingFuel;
+    }
+
+    public int getPower() {
+        return power;
+    }
+
+    public void setPower(int power) {
+        this.power = power;
+    }
 }
